@@ -94,9 +94,10 @@ function getEvens(numbers) {
 function getOdds(numbers) {
   // TODO
   const odds = [];
-  for (let i = 0; i < numbers.length; i++);
-  if (numbers[i] % 2 == 1) {
-    odds.push(number[i]);
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 == 1) {
+      odds.push(numbers[i]);
+    }
   }
   return odds;
 }
